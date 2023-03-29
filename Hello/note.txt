@@ -1,0 +1,1 @@
+only using command `rustc main.rs` compiled the code.
