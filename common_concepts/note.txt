@@ -1,0 +1,23 @@
+`const` var: can not be defined with `mut`
+
+func returns does not have any `return` keyword or similars. 
+        fn example_func (var1: f32, var2: bool) -> f32 {
+            println!("inside example fn!!!!");
+            if var2 {
+                println!("{var1}");
+            }
+            var1 + 2.44
+        }
+
+
+loop labels start with `'`:  example: 'inner    and for break: break 'inner;
+
+***************
+&str vs. String
+In Rust, a &str is a string slice that refers to a specific sequence of characters in a string.
+ It is an immutable reference, meaning it cannot be changed once bound to a particular string.
+
+On the other hand, a String is a growable, mutable string type that is stored on the heap. 
+It can be modified and reallocated in memory as needed.
+****************************
+

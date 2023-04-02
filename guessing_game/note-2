@@ -1,0 +1,5 @@
+- references in rust are immutable by default (similar to const& in c++ ??)
+
+- shadowing in rust. (does it exist in modern cpp ?!): string guess; guess = int(guess); // no error
+
+- match expression in rust (search for equivalance in cpp)
