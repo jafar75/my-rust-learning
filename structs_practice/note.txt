@@ -1,0 +1,21 @@
+unit-like structs:  structs without any field or method   (ch10) 
+define references as type of struct fileds      (ch10)
+
+*****
+automatic dereferencing and referencing:
+both below are the same:   (unlike c++, obj->func not exists in rust)
+    p1.distance(&p2);
+    (&p1).distance(&p2);
+
+
+
+Non-associated methods (inside impl, without &self):
+
+impl Rectangle {
+    fn square(size: u32) -> Self {
+        Self {
+            width: size,
+            height: size,
+        }
+    }
+}
