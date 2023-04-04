@@ -1,0 +1,4 @@
+in match expression, to avoid compile-error, 
+one must not forget all possiblities of an enum.
+
+https://www.google.com/search?q=Matches+in+Rust+are+exhaustive&sourceid=chrome&ie=UTF-8
